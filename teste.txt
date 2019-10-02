@@ -2,7 +2,7 @@ https://repo.anaconda.com/archive
 
 anaconda.org e anaconda.com
 
-github.com -> criar conta e repositÛrio datapython
+github.com -> criar conta e reposit√≥rio datapython
 
 no computador local, dentro da pasta Documentos, criar a pasta datapython
 
@@ -11,3 +11,4 @@ abrir o gitbash:
 - criar repositorio no github
 - dentro da pasta do projeto: git init
 - git remote add origin https...
+testando
