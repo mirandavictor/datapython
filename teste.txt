@@ -1,14 +1,24 @@
-https://repo.anaconda.com/archive
+dentro da pasta que você quer sincronizar com o git
 
-anaconda.org e anaconda.com
+cd Documents/ # abrir documento
 
-github.com -> criar conta e repositÃ³rio datapython
+ls -a         #lista todos os arquivos da pasta
 
-no computador local, dentro da pasta Documentos, criar a pasta datapython
+$ git init    # vai gerar a engenharia para iniciar o github
 
-abrir o gitbash:
+#apontar o git
+git remote add origin https://github.com/vbddinho/datapython.git
 
-- criar repositorio no github
-- dentro da pasta do projeto: git init
-- git remote add origin https...
-testando
+
+# adicionar tudo "." do diretorio e vai add
+git add .
+
+# Commit do "add ."
+git commit -m "primeiro commit"
+
+
+# Levando a informação para o GITHUB
+git push -u origin master
+
+# puxar da origem 
+ git pull origin master
